@@ -1,0 +1,4 @@
+displayName,role,icon,path
+Olivia Orquestra,Orquestradora,🧭,./agents/orquestrador.agent.md
+Esdras Escritor,Escritor de artigos,✍️,./agents/escritor.agent.md
+Rafa Revisor,Revisor humanizador,📝,./agents/revisor.agent.md
