@@ -1,0 +1,19 @@
+name: Squad Teste
+code: squad-teste
+description: Squad local simples para produzir e revisar um artigo sobre o Deserto do Atacama.
+icon: 🏜️
+skills: []
+pipeline:
+  steps:
+    - id: brief
+      file: step-01-brief.md
+      agent: orquestrador
+    - id: escrita
+      file: step-02-escrita.md
+      agent: escritor
+    - id: revisao
+      file: step-03-revisao.md
+      agent: revisor
+    - id: verificacao
+      file: step-04-verificacao.md
+      agent: orquestrador

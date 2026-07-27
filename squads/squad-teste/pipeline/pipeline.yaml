@@ -1,0 +1,17 @@
+steps:
+  - id: brief
+    label: Brief do artigo
+    file: step-01-brief.md
+    agent: orquestrador
+  - id: escrita
+    label: Redação do artigo
+    file: step-02-escrita.md
+    agent: escritor
+  - id: revisao
+    label: Revisão de tom
+    file: step-03-revisao.md
+    agent: revisor
+  - id: verificacao
+    label: Verificação final
+    file: step-04-verificacao.md
+    agent: orquestrador
