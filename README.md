@@ -167,7 +167,7 @@ Contribuições da comunidade são bem-vindas. Veja o [CONTRIBUTING.md](CONTRIBU
 
 ## Licença
 
-MIT — use como quiser.
+GNU General Public License v3.0 (GPLv3). Consulte `LICENSE` para os termos completos.
 
 ---
 
@@ -312,4 +312,4 @@ Community contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) to l
 
 ## License
 
-MIT — use it however you want.
+GNU General Public License v3.0 (GPLv3). See `LICENSE` for the full terms.
