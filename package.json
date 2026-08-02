@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/renatoasse/opensquad/issues"
   },
-  "license": "GPL-3.0-only",
+  "license": "MIT",
   "engines": {
     "node": ">=20.0.0"
   },
