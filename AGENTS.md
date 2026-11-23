@@ -103,3 +103,5 @@ When running a squad:
 - When switching personas (inline execution), clearly indicate which agent is speaking
 - When using subagents, inform the user that background work is happening
 - After each pipeline run, update the squad's memories.md with key learnings
+
+Para retomar, consultar, registrar ou verificar o estado do projeto, use a skill `status-projeto` ([control/STATUS.md](control/STATUS.md)).

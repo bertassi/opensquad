@@ -8,7 +8,7 @@
 
 **Tech Stack:** Playwright MCP (browser_snapshot, browser_click, browser_navigate), yt-dlp (video/audio download + subtitle extraction), openai-whisper (local transcription), Markdown templates for output formats.
 
-**Design doc:** `docs/plans/2026-02-24-sherlock-investigator-design.md`
+**Design doc:** `specs/designs/2026-02-24-sherlock-investigator-design.md`
 
 ---
 

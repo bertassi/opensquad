@@ -8,7 +8,7 @@
 
 **Tech Stack:** Node.js 20, `node:test`, ESLint 9 flat config, GitHub Actions, JSONL logging.
 
-**Spec:** `docs/superpowers/specs/2026-03-17-observability-ci-design.md`
+**Spec:** `specs/designs/superpowers/2026-03-17-observability-ci-design.md`
 
 ---
 

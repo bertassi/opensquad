@@ -8,7 +8,7 @@
 
 **Tech Stack:** Node.js 20+, YAML frontmatter in Markdown, GitHub raw content API for skill distribution.
 
-**Design doc:** `docs/plans/2026-02-27-skills-system-redesign.md`
+**Design doc:** `specs/designs/2026-02-27-skills-system-redesign.md`
 
 ---
 

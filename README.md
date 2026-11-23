@@ -1,4 +1,5 @@
 # opensquad
+[Acompanhe o status do projeto](https://github.com/bertassi/opensquad/blob/master/control/STATUS.md)
 
 Crie squads de agentes de IA que trabalham juntos — direto da sua IDE.
 

@@ -8,7 +8,7 @@
 
 **Tech Stack:** Phaser 3, React 19, Zustand, Vite, TypeScript
 
-**Spec:** `docs/superpowers/specs/2026-03-27-phaser-dashboard-migration-design.md`
+**Spec:** `specs/designs/superpowers/2026-03-27-phaser-dashboard-migration-design.md`
 
 ---
 

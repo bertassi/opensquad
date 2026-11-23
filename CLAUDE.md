@@ -42,3 +42,5 @@ Opensquad uses a persistent Playwright browser profile to keep you logged into s
 - First time accessing a platform, you'll log in manually once
 - Subsequent runs will reuse your saved session
 - **Important:** The native Claude Code Playwright plugin must be disabled. Opensquad uses its own `@playwright/mcp` server configured in `.mcp.json`.
+
+Para retomar, consultar, registrar ou verificar o estado do projeto, use a skill `status-projeto` ([control/STATUS.md](control/STATUS.md)).

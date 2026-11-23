@@ -8,7 +8,7 @@
 
 **Tech Stack:** PixiJS 8.9.2, @pixi/react, React 19, TypeScript, Vite
 
-**Spec:** `docs/superpowers/specs/2026-03-18-dashboard-visual-upgrade-design.md`
+**Spec:** `specs/designs/superpowers/2026-03-18-dashboard-visual-upgrade-design.md`
 
 **Verification:** No test framework in the dashboard. All verification is visual — run `cd dashboard && npm run dev`, open the browser, run a squad, and inspect the rendering. Use `npm run build` to catch type errors.
 

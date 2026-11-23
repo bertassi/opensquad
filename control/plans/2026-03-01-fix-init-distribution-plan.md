@@ -8,7 +8,7 @@
 
 **Tech Stack:** Node.js (ESM), node:test, node:fs/promises
 
-**Design doc:** `docs/plans/2026-03-01-fix-init-distribution-design.md`
+**Design doc:** `specs/designs/2026-03-01-fix-init-distribution-design.md`
 
 ---
 

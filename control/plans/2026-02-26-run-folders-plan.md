@@ -8,7 +8,7 @@
 
 **Tech Stack:** Markdown prompt files (no code — this is a prompt-driven orchestration system)
 
-**Design doc:** `docs/plans/2026-02-26-run-folders-design.md`
+**Design doc:** `specs/designs/2026-02-26-run-folders-design.md`
 
 ---
 

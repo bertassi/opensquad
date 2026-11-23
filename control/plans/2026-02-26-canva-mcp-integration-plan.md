@@ -207,10 +207,10 @@ git commit -m "chore: update Architect tool example from Figma to Canva"
 **Step 1: Search for any remaining figma references in non-docs files**
 
 ```bash
-grep -ri "figma" --include="*.yaml" --include="*.md" --exclude-dir="docs" .
+grep -ri "figma" --include="*.yaml" --include="*.md" --exclude-dir="control" --exclude-dir="specs" .
 ```
 
-Expected: No results (all figma references in active code are gone; only docs/plans/ files retain historical references)
+Expected: No results (historical references in `control/plans/` and `specs/designs/` are excluded).
 
 **Step 2: Verify registry is correct**
 

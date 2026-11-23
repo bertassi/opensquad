@@ -1,7 +1,8 @@
 tests/
-test-results/
-temp/squads/
+tests/results/
+tests/fixtures/temp/squads/
 .claude/settings.local.json
 dashboards/test-results/
-docs/
+control/
+specs/
 .github/

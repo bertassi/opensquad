@@ -1,8 +1,8 @@
-# TODO
+# Requisitos de portabilidade e documentação
 
 ## Portabilidade entre sistemas operacionais
 
-- Validar o plano de adaptação cross-platform com Claude antes da implementação.
+A implementação da adaptação depende da validação prévia do plano com Claude. O acompanhamento das tarefas fica em [control/STATUS.md](../control/STATUS.md).
 - Remover dependência obrigatória de Bash no fluxo core.
 - Substituir comandos como `test -s`, `mkdir -p`, `grep`, `ls`, `sort`, `tail` e `cp` por operações Node.js.
 - Criar uma camada utilitária cross-platform em `src/runtime.js`.

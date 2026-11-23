@@ -8,7 +8,7 @@
 
 **Tech Stack:** Markdown prompt files, YAML configs, Playwright CLI (replacing MCP)
 
-**Spec:** `docs/superpowers/specs/2026-03-27-token-optimization-redesign.md`
+**Spec:** `specs/designs/superpowers/2026-03-27-token-optimization-redesign.md`
 
 ---
 
@@ -1019,10 +1019,10 @@ git rm _opensquad/core/prompts/sherlock.prompt.md
 - [ ] **Step 3: Verify no broken references**
 
 ```bash
-grep -r "sherlock.prompt.md" . --include="*.md" --include="*.yaml" --include="*.yml" | grep -v "docs/superpowers" | grep -v ".git/"
+grep -r "sherlock.prompt.md" . --include="*.md" --include="*.yaml" --include="*.yml" --exclude-dir=".git" --exclude-dir="control" --exclude-dir="specs"
 ```
 
-Expected: No results (excluding docs/specs which reference it historically).
+Expected: No results (historical references in `control/plans/` and `specs/designs/` are excluded).
 
 - [ ] **Step 4: Commit**
 
