@@ -37,25 +37,26 @@ Digite `/opensquad` e escolha "Executar squad" no menu, ou seja direto:
 /opensquad execute o squad <nome-do-squad>
 ```
 
-O squad executa automaticamente, pausando apenas nos checkpoints de decisão.
+O squad executa automaticamente, pausando nos checkpoints de decisão e quando falta alguma entrada obrigatória.
 
 ## Escritório Virtual
 
 O Escritório Virtual é uma interface visual 2D que mostra seus agentes trabalhando em tempo real.
 
-**Passo 1 — Gere o dashboard** (no seu IDE):
-
-```
-/opensquad dashboard
-```
-
-**Passo 2 — Sirva localmente** (no terminal):
+**Passo 1 — Entre na pasta do painel** (no terminal):
 
 ```bash
-npx serve squads/<nome-do-squad>/dashboard
+cd dashboard
+npm install
 ```
 
-**Passo 3 —** Abra `http://localhost:3000` no seu navegador.
+**Passo 2 — Inicie o painel:**
+
+```bash
+npm run dev
+```
+
+**Passo 3 —** Abra o endereço que o Vite mostrar no terminal (normalmente `http://localhost:5173`) no seu navegador.
 
 ---
 
@@ -98,22 +99,23 @@ Type `/opensquad` and choose "Run squad" from the menu, or be direct:
 /opensquad run the <squad-name> squad
 ```
 
-The squad runs automatically, pausing only at decision checkpoints.
+The squad runs automatically, pausing at decision checkpoints and when a required input is missing.
 
 ## Virtual Office
 
 The Virtual Office is a 2D visual interface that shows your agents working in real time.
 
-**Step 1 — Generate the dashboard** (in your IDE):
-
-```
-/opensquad dashboard
-```
-
-**Step 2 — Serve it locally** (in terminal):
+**Step 1 — Go to the dashboard folder** (in terminal):
 
 ```bash
-npx serve squads/<squad-name>/dashboard
+cd dashboard
+npm install
 ```
 
-**Step 3 —** Open `http://localhost:3000` in your browser.
+**Step 2 — Start the dashboard:**
+
+```bash
+npm run dev
+```
+
+**Step 3 —** Open the address Vite prints in the terminal (usually `http://localhost:5173`) in your browser.

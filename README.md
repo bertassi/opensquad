@@ -45,7 +45,7 @@ Para qualquer pessoa ou equipe que queira automatizar trabalho operacional e rep
 
 ## Instalação
 
-**Pré-requisito:** Node.js 20+
+**Pré-requisito:** Node.js 20.17+
 
 ```bash
 npx opensquad init
@@ -75,19 +75,20 @@ npx opensquad update
 
 O Escritório Virtual é uma interface visual 2D que mostra seus agentes trabalhando em tempo real.
 
-**Passo 1 — Gere o dashboard** (na sua IDE):
-
-```
-/opensquad dashboard
-```
-
-**Passo 2 — Sirva localmente** (no terminal):
+**Passo 1 — Entre na pasta do painel** (no terminal):
 
 ```bash
-npx serve squads/<nome-do-squad>/dashboard
+cd dashboard
+npm install
 ```
 
-**Passo 3 —** Abra `http://localhost:3000` no seu navegador.
+**Passo 2 — Inicie o painel:**
+
+```bash
+npm run dev
+```
+
+**Passo 3 —** Abra o endereço que o Vite mostrar no terminal (normalmente `http://localhost:5173`) no seu navegador.
 
 ## Criando seu Squad
 
@@ -151,16 +152,16 @@ Se estiver usando uma stack paga, recomendamos monitorar seu consumo de tokens n
 
 ## Sessões de Navegador e Privacidade
 
-Quando você fornece URLs de referência durante a criação de um squad (ex: "siga o estilo do @fulano"), o opensquad usa um navegador headless (Playwright) para visitar essas páginas e extrair padrões de conteúdo.
+Quando você fornece URLs de referência durante a criação de um squad (ex: "siga o estilo do @fulano"), o opensquad usa um navegador (Playwright) para visitar essas páginas e extrair padrões de conteúdo.
 
 - **Login manual:** na primeira vez que uma plataforma exige login, o opensquad pede para você entrar manualmente e **pergunta se deseja salvar a sessão** para investigações futuras.
-- **Cookies persistentes:** se você autorizar, os cookies ficam salvos localmente em `_opensquad/_browser_profile/`. Esse diretório nunca é commitado no git (`.gitignore`).
+- **Cookies persistentes:** se você autorizar, os cookies ficam salvos localmente em `_opensquad/_browser_profile/`. O `.gitignore` exclui esse diretório do git.
 - **Escopo de acesso:** o navegador tem acesso a qualquer URL — não apenas às referências fornecidas. As ações do navegador (navegação, cliques, execução de JavaScript) são controladas pelo agente investigador.
 - **Revogar sessões:** delete a pasta `_opensquad/_browser_profile/` para remover todos os cookies e dados de sessão salvos. Na próxima investigação, um novo login manual será necessário.
 
 ## Sobre
 
-O opensquad é um projeto open source criado e mantido por [Renato Asse](https://github.com/renatoasse), fundador da [Comunidade Sem Codar](https://semcodar.com.br), uma Escola de IA com mais de 25 mil alunos focada em ensinar pessoas não-técnicas a usar inteligência artificial no trabalho.
+O opensquad é um projeto open source criado e mantido por [Renato Asse](https://github.com/renatoasse), fundador da [ibe.IA](https://ibe.ia.br/semcodar/) (antes Comunidade Sem Codar), uma Escola de IA com mais de 25 mil alunos focada em ensinar pessoas não-técnicas a usar inteligência artificial no trabalho.
 
 O projeto nasceu da necessidade real de automatizar processos de conteúdo e marketing usando agentes de IA — e é disponibilizado gratuitamente para que qualquer pessoa possa usar, estudar e contribuir.
 
@@ -195,7 +196,7 @@ Example:
 
 ## Installation
 
-**Prerequisite:** Node.js 20+
+**Prerequisite:** Node.js 20.17+
 
 ```bash
 npx opensquad init
@@ -227,19 +228,20 @@ npx opensquad update
 
 The Virtual Office is a 2D visual interface that shows your agents working in real time.
 
-**Step 1 — Generate the dashboard** (in your IDE):
-
-```
-/opensquad dashboard
-```
-
-**Step 2 — Serve it locally** (in terminal):
+**Step 1 — Go to the dashboard folder** (in terminal):
 
 ```bash
-npx serve squads/<squad-name>/dashboard
+cd dashboard
+npm install
 ```
 
-**Step 3 —** Open `http://localhost:3000` in your browser.
+**Step 2 — Start the dashboard:**
+
+```bash
+npm run dev
+```
+
+**Step 3 —** Open the address Vite prints in the terminal (usually `http://localhost:5173`) in your browser.
 
 ## Creating your Squad
 
@@ -296,16 +298,16 @@ If using a paid stack, we recommend monitoring your token usage in your IDE or y
 
 ## Browser Sessions & Privacy
 
-When you provide reference URLs during squad creation (e.g., "follow the style of @someone"), opensquad uses a headless browser (Playwright) to visit those pages and extract content patterns.
+When you provide reference URLs during squad creation (e.g., "follow the style of @someone"), opensquad uses a browser (Playwright) to visit those pages and extract content patterns.
 
 - **Manual login:** the first time a platform requires login, opensquad asks you to log in manually and **asks whether you want to save the session** for future investigations.
-- **Persistent cookies:** if you agree, cookies are saved locally in `_opensquad/_browser_profile/`. This directory is never committed to git (`.gitignore`).
+- **Persistent cookies:** if you agree, cookies are saved locally in `_opensquad/_browser_profile/`. The `.gitignore` excludes this directory from git.
 - **Access scope:** the browser can access any URL — not just the references you provided. Browser actions (navigation, clicks, JavaScript execution) are controlled by the investigator agent.
 - **Revoking sessions:** delete the `_opensquad/_browser_profile/` folder to remove all saved cookies and session data. The next investigation will require a fresh manual login.
 
 ## About
 
-opensquad is an open source project created and maintained by [Renato Asse](https://github.com/renatoasse), founder of [Comunidade Sem Codar](https://semcodar.com.br) (No-Code Community), an AI School with over 25,000 students focused on teaching non-technical people how to use artificial intelligence at work.
+opensquad is an open source project created and maintained by [Renato Asse](https://github.com/renatoasse), founder of [ibe.IA](https://ibe.ia.br/semcodar/) (formerly Comunidade Sem Codar), an AI School with over 25,000 students focused on teaching non-technical people how to use artificial intelligence at work.
 
 The project was born from the real need to automate content and marketing workflows using AI agents — and is made freely available so anyone can use, study, and contribute.
 
